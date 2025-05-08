@@ -8,4 +8,4 @@ COPY AlgorithmSimulation-1.0.war /opt/payara/app.war
 EXPOSE 8080
 
 # Comando para ejecutar Payara Micro con el WAR desplegado
-CMD ["java", "-jar", "/opt/payara/payara-micro.jar", "--deploy", "/opt/payara/app.war", "--contextRoot", "/"]
+CMD ["/opt/payara/payara-micro.jar", "--deploy", "/opt/payara/app.war", "--contextRoot", "/"]
