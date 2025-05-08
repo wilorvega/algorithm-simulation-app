@@ -1,6 +1,6 @@
 FROM eclipse-temurin:17-jdk
 
-ENV PAYARA_MICRO_VERSION 5.2022.5
+ENV PAYARA_MICRO_VERSION 5.2022.1
 
 # Descarga Payara Micro jar directamente desde Maven Central
 ADD https://search.maven.org/remotecontent?filepath=fish/payara/distributions/payara-micro/$PAYARA_MICRO_VERSION/payara-micro-$PAYARA_MICRO_VERSION.jar /opt/payara/payara-micro.jar
